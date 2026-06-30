@@ -7,6 +7,7 @@ import AIReceptionistPage from './components/AIReceptionistPage'
 import PrivacyPolicyPage  from './components/PrivacyPolicyPage'
 import CookiePolicyPage    from './components/CookiePolicyPage'
 import DataProtectionPage  from './components/DataProtectionPage'
+import TermsOfServicePage  from './components/TermsOfServicePage'
 import FAQsPage            from './components/FAQsPage'
 import ContactPage         from './components/ContactPage'
 import BlogPage            from './components/BlogPage'
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="/privacy-policy"  element={<PrivacyPolicyPage />} />
         <Route path="/cookie-policy"        element={<CookiePolicyPage />} />
         <Route path="/data-protection"      element={<DataProtectionPage />} />
+        <Route path="/terms-of-service"     element={<TermsOfServicePage />} />
         <Route path="/faqs"                 element={<FAQsPage />} />
         <Route path="/blog"                 element={<BlogPage />} />
         <Route path="/blog/:slug"           element={<BlogPostPage />} />
